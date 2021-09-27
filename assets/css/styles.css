@@ -31,3 +31,37 @@ footer{
     width: 100%;
     
 }
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.list-container div.list-container{
+    width: 450px;
+    min-height: 400px;
+    position: absolute;
+    top: -200px;
+    text-align: center;
+}
+.list-container div.container h2{
+    font-size: 2rem;
+    color: rgb(236, 12, 12);
+    font-weight: 500;
+    margin: 20px;
+}
+.container h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    display: block;
+    font-size:1.5rem ;
+    margin-block-start: 0.83em;
+    margin-inline-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
